@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+Disallow: /cgi-bin/
+Disallow: /admin/
+Disallow: /includes/
+Disallow: /tmp/
+
+Sitemap: https://www.morenews.org/sitemap.xml

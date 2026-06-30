@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+
+  <channel>
+
+<title>More News – UK Politics, Business, Tech and World</title>
+<link>https://www.morenews.org</link>
+<description>More News delivers trusted UK journalism covering politics, business, technology, world affairs, health and sport with clear, independent reporting.</description>
+
+<language>en-gb</language>
+<copyright>© More News 2026. All rights reserved</copyright>
+
+<lastBuildDate>Tue, 30 Jun 2026 10:00:00 GMT</lastBuildDate>
+
+<generator>Static HTML RSS Feed</generator>
+
+<managingEditor>admin@morenews.org (More News Editor)</managingEditor>
+<webMaster>admin@morenews.org (More News Webmaster)</webMaster>
+
+<atom:link href="https://www.morenews.org/rss.xml" rel="self" type="application/rss+xml"/>
+
+
+<!-- Latest Article (NEW) -->
+<item>
+
+  <title>Andy Burnham Signals “Soft Launch” of Premiership Bid With Major Plan to Rewire UK Economy</title>
+
+  <link>
+  https://www.morenews.org/politics/andy-burnham-uk-premiership-soft-launch-economic-plan-2026
+  </link>
+
+  <guid isPermaLink="true">
+  https://www.morenews.org/politics/andy-burnham-uk-premiership-soft-launch-economic-plan-2026
+  </guid>
+
+  <pubDate>Tue, 30 Jun 2026 10:00:00 GMT</pubDate>
+
+  <description><![CDATA[
+
+  <img src="https://www.morenews.org/images/andy-burnham-uk-premiership-soft-launch-economic-plan-2026.webp" width="800" />
+
+  <p>
+  Andy Burnham has outlined a major political and economic vision focused on decentralising UK governance, expanding regional power, and increasing public ownership of key services.
+  </p>
+
+  <p>
+  The proposals include housing expansion, stronger local authority control, and restructuring Westminster decision-making, sparking speculation about a future leadership bid.
+  </p>
+
+  <p>
+  Read the full story:<br>
+  <a href="https://www.morenews.org/politics/andy-burnham-uk-premiership-soft-launch-economic-plan-2026">
+  Andy Burnham Signals “Soft Launch” of Premiership Bid With Major Plan to Rewire UK Economy
+  </a>
+  </p>
+
+  ]]></description>
+
+  <category>Politics</category>
+  <category>UK</category>
+  <category>Economy</category>
+
+</item>
+
+<!-- Article 2 -->
+<item>
+
+  <title>Sweden Selects Rolls-Royce SMR for First New Nuclear Power Project in More Than Four Decades</title>
+
+  <link>
+  https://www.morenews.org/business/sweden-rolls-royce-smr-nuclear-project-2026
+  </link>
+
+  <guid isPermaLink="true">
+  https://www.morenews.org/business/sweden-rolls-royce-smr-nuclear-project-2026
+  </guid>
+
+  <pubDate>Mon, 15 Jun 2026 00:00:00 GMT</pubDate>
+
+  <description><![CDATA[
+
+  <img src="https://www.morenews.org/images/sweden-rolls-royce-smr-nuclear-project-2026-first-image.webp" width="800" />
+
+  <p>
+  Sweden's Vattenfall has selected Rolls-Royce SMR to develop the country's first new nuclear power project in more than 40 years.
+  </p>
+
+  <p>
+  The project marks a key milestone in Europe’s nuclear energy expansion and supports Sweden’s decarbonisation strategy.
+  </p>
+
+  <p>
+  Read the full story:<br>
+  <a href="https://www.morenews.org/business/sweden-rolls-royce-smr-nuclear-project-2026">
+  Sweden Selects Rolls-Royce SMR for First New Nuclear Power Project in More Than Four Decades
+  </a>
+  </p>
+
+  ]]></description>
+
+  <category>Business</category>
+  <category>Energy</category>
+  <category>Nuclear Power</category>
+
+</item>
+
+
+
+  </channel>
+
+</rss>

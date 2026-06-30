@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO -->
+    <title>Our Team | More News – Independent UK Journalism</title>
+    <meta name="title" content="Our Team | More News – Independent UK Journalism">
+    <meta name="description" content="Meet the journalists, editors, and analysts behind More News — an independent UK digital newsroom committed to fact-based, transparent reporting on UK and global affairs.">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://www.morenews.org/our-team">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Our Team | More News – Independent UK Journalism">
+    <meta property="og:description" content="Meet the journalists, editors, and analysts behind More News — an independent UK digital newsroom committed to fact-based, transparent reporting.">
+    <meta property="og:url" content="https://www.morenews.org/our-team">
+    <meta property="og:image" content="https://www.morenews.org/images/morenews-about.webp">
+    <meta property="og:site_name" content="More News">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_GB">
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Our Team | More News – Independent UK Journalism">
+    <meta name="twitter:description" content="Meet the journalists, editors, and analysts behind More News.">
+    <meta name="twitter:url" content="https://www.morenews.org/our-team">
+    <meta name="twitter:image" content="https://www.morenews.org/images/morenews-about.webp">
+    <meta name="twitter:site" content="@morenews">
+
+    <!-- Styles -->
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Google Fonts -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&family=Noto+Serif+JP:wght@400;700&display=swap" as="style">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&family=Noto+Serif+JP:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" as="style">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"></noscript>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <!-- Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "@id": "https://www.morenews.org/#website",
+          "url": "https://www.morenews.org/",
+          "name": "More News"
+        },
+        {
+          "@type": "NewsMediaOrganization",
+          "@id": "https://www.morenews.org/#publisher",
+          "name": "More News",
+          "url": "https://www.morenews.org/",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.morenews.org/images/logo.webp",
+            "width": 512,
+            "height": 512
+          },
+          "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "GB"
+          }
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://www.morenews.org/our-team#webpage",
+          "url": "https://www.morenews.org/our-team",
+          "name": "Our Team | More News",
+          "inLanguage": "en-GB",
+          "isPartOf": { "@id": "https://www.morenews.org/#website" }
+        }
+      ]
+    }
+    </script>
+
+    <style>
+        /* Team page specific styles */
+        .team-intro {
+            background: #f7f7f7;
+            border-left: 4px solid #c0392b;
+            padding: 1.5rem 1.8rem;
+            margin-bottom: 2rem;
+            border-radius: 0 4px 4px 0;
+        }
+        .team-intro p {
+            margin: 0;
+            font-size: 1.05rem;
+            line-height: 1.7;
+            color: #333;
+        }
+        .mission-block {
+            margin-bottom: 2.5rem;
+        }
+        .mission-block h2 {
+            font-size: 1.3rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+            border-bottom: 2px solid #111;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1rem;
+        }
+        .section-label {
+            font-size: 0.75rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: #c0392b;
+            margin-bottom: 1rem;
+            display: block;
+        }
+        .team-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+            margin-bottom: 2.5rem;
+        }
+        @media (max-width: 640px) {
+            .team-grid { grid-template-columns: 1fr; }
+        }
+        .team-card {
+            border: 1px solid #e0e0e0;
+            padding: 1.4rem;
+            background: #fff;
+            transition: box-shadow 0.2s ease;
+        }
+        .team-card:hover {
+            box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+        }
+        .team-card .role-tag {
+            font-size: 0.7rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: #c0392b;
+            margin-bottom: 0.4rem;
+        }
+        .team-card h3 {
+            font-size: 1.1rem;
+            font-weight: 700;
+            margin-bottom: 0.6rem;
+        }
+        .team-card h3 a {
+            color: #111;
+            text-decoration: none;
+        }
+        .team-card h3 a:hover {
+            color: #c0392b;
+        }
+        .team-card p {
+            font-size: 0.88rem;
+            color: #555;
+            line-height: 1.6;
+            margin-bottom: 0.8rem;
+        }
+        .team-card .view-bio {
+            font-size: 0.8rem;
+            font-weight: 600;
+            color: #c0392b;
+            text-decoration: none;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+        .team-card .view-bio:hover {
+            text-decoration: underline;
+        }
+        .departments-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.2rem;
+            margin-bottom: 2.5rem;
+        }
+        @media (max-width: 640px) {
+            .departments-grid { grid-template-columns: 1fr; }
+        }
+        .dept-card {
+            padding: 1.2rem 1.4rem;
+            border: 1px solid #e0e0e0;
+            background: #fafafa;
+        }
+        .dept-card h4 {
+            font-size: 0.9rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+            margin-bottom: 0.4rem;
+            color: #111;
+        }
+        .dept-card p {
+            font-size: 0.85rem;
+            color: #555;
+            line-height: 1.55;
+            margin: 0;
+        }
+        .all-authors-block {
+            margin-bottom: 2rem;
+        }
+        .all-authors-block h2 {
+            font-size: 1.3rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+            border-bottom: 2px solid #111;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1rem;
+        }
+        .author-links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.6rem;
+        }
+        .author-links a {
+            background: #111;
+            color: #fff;
+            padding: 0.4rem 0.9rem;
+            font-size: 0.82rem;
+            font-weight: 500;
+            text-decoration: none;
+            transition: background 0.2s;
+        }
+        .author-links a:hover {
+            background: #c0392b;
+        }
+        .page-updated {
+            font-size: 0.8rem;
+            color: #888;
+            margin-top: 2rem;
+            padding-top: 1rem;
+            border-top: 1px solid #e0e0e0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    
+
+<header class="header">
+        <div class="top-header">
+            <div class="left-icons">
+                <i class="fas fa-bars nav-menu"></i>
+                <!-- <i class="fas fa-search search-icon fa-sm desktop-search"></i> -->
+            </div>
+            <div class="search-popup" id="searchPopup">
+                <!-- <input type="text" class="search-input">
+                <button class="search-btn">SEARCH</button> -->
+            </div>
+            <div id="sidebar" class="sidebar">
+                <span class="close-btn" onclick="closeSidebar()">&times;</span>
+                <!-- <p class="logo">More News</p> -->
+                <a class="link" href="index.html" title="Home">Home</a>
+                <a class="link1" href="uk/uk.html"  title="UK">UK</a>
+                <a class="link1" href="politics/politics.html"  title="Politics">Politics</a>
+                <a class="link1" href="business/business.html"  title="Business">Business</a>
+                <a class="link1" href="tech/tech.html"  title="Tech">Tech</a>
+                <a class="link1" href="world/world.html"  title="World">World</a>
+                <a class="link1" href="health/health.html"  title="Health">Health</a>
+                <a class="link1" href="sports/sports.html"  title="Sports">Sports</a>
+                <a class="link1" href="investigation/investigation.html"  title="Investigation">Investigation</a>
+                
+            </div>
+            <!-- <div class="logo">More News</div> -->
+            <div class="logo"><a href="index.html" title="home"><img src="images/logo.png" height="90px" width="250px" alt="more news"></a></div>
+            <div class="search-container">
+                <!-- <i class="fas fa-search search-icon fa-sm mobile-search"></i> -->
+            </div>
+            <div class="mobile-search-panel" id="mobileSearchPanel">
+                <div class="panel-close-x" id="mobileCloseBtn">&times;</div>
+                <div class="mobile-search-box">
+
+                    <!-- <p class="mobile-search-btn">Search</p>
+                    <input type="text" class="mobile-search-input"> -->
+                </div>
+            </div>
+            <div class="right-info">
+                <div class="line date"></div>
+                <!-- <div class="line"><a href="#" class="signin">Sign in / Join</a></div> -->
+            </div>
+        </div>
+
+    <nav class="navbar">
+            <ul>
+                <li><a href="index.html" title="Home" class="active">Home</a></li>
+                <li><a href="uk/uk.html" title="UK">UK</a>
+                <li><a href="politics/politics.html" title="Politics">Politics</a>
+                <li><a href="business/business.html" title="Business">Business</a>
+                <li><a href="tech/tech.html" title="Tech">Tech</a>
+                <li><a href="world/world.html" title="World">World</a>
+                <li><a href="health/health.html" title="Health">Health</a>
+                <li><a href="sports/sports.html" title="Sports">Sports</a>
+                <li><a href="investigation/investigation.html" title="Investigation">Investigation</a>
+                
+            </ul>
+        </nav>    
+        </header> 
+
+<script src="js/style.js" defer></script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const dateEl = document.querySelector(".line.date");
+
+    const options = {
+        weekday: "long",   
+        year: "numeric",   
+        month: "long",     
+        day: "numeric"     
+    };
+
+    const today = new Date().toLocaleDateString("en-US", options);
+
+    dateEl.textContent = today;
+});
+</script>
+
+
+
+
+    <div class="main-container">
+        <section class="headline-rail"></section>
+
+        <!-- MAIN CONTENT -->
+        <div class="story-wrapper">
+            <div class="story-grid">
+
+                <!-- LEFT CONTENT -->
+                <div class="primary-feed">
+
+                    <!-- ARTICLE HEADER -->
+                    <div class="article-header">
+                        <div class="article-breadcrumb">
+                            <a href="index.html" title="home" class="crumb-link">Home</a> /
+                            <span class="crumb-current">Our Team</span>
+                        </div>
+                        <h1 class="article-headline">Our Team</h1>
+                    </div>
+
+                    <!-- ARTICLE CONTENT -->
+                    <div class="writer-block">
+                        <div class="story-text-wrap">
+
+                            <div class="team-intro">
+                                <p>At More News, our journalists, editors, and analysts work together across the UK and beyond to deliver fact-based, independent journalism that holds power to account and keeps readers informed.</p>
+                            </div>
+
+                            <!-- Mission -->
+                            <div class="mission-block">
+                                <h2>Our Mission</h2>
+                                <p>We are an independent newsroom committed to truth, transparency, and accountability. We cover UK politics, global affairs, economics, climate, science, and social change — giving voice to people through journalism that cuts through the noise rather than adding to it.</p>
+                            </div>
+
+                            <!-- Leadership -->
+                            <span class="section-label">Leadership</span>
+                            <div class="team-grid">
+
+                                <div class="team-card">
+                                    <div class="role-tag">Political Journalist</div>
+                                    <h3><a href="author/emily-hargreaves.html">Emily Hargreaves</a></h3>
+                                    <p>Emily Hargreaves is a political journalist covering UK politics, policy, and government affairs. She focuses on clear, balanced reporting and in-depth analysis of developments shaping Westminster and public life.</p>
+                                    <a href="author/emily-hargreaves.html" class="view-bio">View full bio</a>
+                                </div>
+
+                                <div class="team-card">
+                                    <div class="role-tag">Investigations Correspondent</div>
+                                    <h3><a href="author/daniel-rowcroft.html">Daniel Rowcroft</a></h3>
+                                    <p>Daniel Rowcroft is a UK-based investigations correspondent covering politics, public policy, and corporate accountability. His reporting focuses on uncovering hidden networks, regulatory failures, and issues of public interest through in-depth research and source-driven analysis.</p>
+                                    <a href="author/daniel-rowcroft.html" class="view-bio">View full bio</a>
+                                </div>
+
+                            </div>
+
+                            <!-- Reporting Team -->
+                            <span class="section-label">Reporting Team</span>
+                            <div class="team-grid">
+
+                                <div class="team-card">
+                                    <div class="role-tag">News Reporter</div>
+                                    <h3><a href="author/james-thornton.html">James Thornton</a></h3>
+                                    <p>James Thornton is a British news reporter who writes about politics, social issues, and current events. His goal is to cover and analyze events that have an impact on daily life in the UK in a way that is timely, accurate, and easy to understand.</p>
+                                    <a href="author/james-thornton.html" class="view-bio">View full bio</a>
+                                </div>
+
+                                <div class="team-card">
+                                    <div class="role-tag">Business Journalist</div>
+                                    <h3><a href="author/henry-whitaker.html">Henry Whitaker</a></h3>
+                                    <p>Henry Whitaker is a business journalist covering market trends, corporate strategy and economic policy. His reporting focuses on providing clear insight into global finance and industrial developments.</p>
+                                    <a href="author/henry-whitaker.html" class="view-bio">View full bio</a>
+                                </div>
+
+                                <div class="team-card">
+                                    <div class="role-tag">Health Journalist</div>
+                                    <h3><a href="author/lydia-prescott.html">Lydia Prescott</a></h3>
+                                    <p>Lydia Prescott is a health journalist covering medical research, public health policy and NHS developments, with a focus on how healthcare issues affect everyday life in the UK.</p>
+                                    <a href="author/lydia-prescott.html" class="view-bio">View full bio</a>
+                                </div>
+
+                                <div class="team-card">
+                                    <div class="role-tag">World News Correspondent</div>
+                                    <h3><a href="author/sophie-caldwell.html">Sophie Caldwell</a></h3>
+                                    <p>Sophie Caldwell is a world news correspondent who writes about foreign affairs, geopolitics, and improvements in global security. She focuses on how world events affect the UK and Europe.</p>
+                                    <a href="author/sophie-caldwell.html" class="view-bio">View full bio</a>
+                                </div>
+
+                                <div class="team-card">
+                                    <div class="role-tag">Technology Journalist</div>
+                                    <h3><a href="author/oliver-grant.html">Oliver Grant</a></h3>
+                                    <p>Oliver Grant is a technology journalist covering the latest developments in tech trends, innovation and digital policy, with a focus on how new technologies impact business and society.</p>
+                                    <a href="author/oliver-grant.html" class="view-bio">View full bio</a>
+                                </div>
+
+                                <div class="team-card">
+                                    <div class="role-tag">Sports Journalist</div>
+                                    <h3><a href="author/callum-fraser.html">Callum Fraser</a></h3>
+                                    <p>Callum Fraser is a sports journalist who writes about football, big competitions, and grassroots sports. He focuses on the stories that affect sports in the UK.</p>
+                                    <a href="author/callum-fraser.html" class="view-bio">View full bio</a>
+                                </div>
+
+                            </div>
+
+                            <!-- Departments -->
+                            <div class="mission-block">
+                                <h2>More News Staff</h2>
+                                <p>Behind every story is a wider team of dedicated professionals working across departments to keep our newsroom operating independently and to the highest editorial standards.</p>
+                            </div>
+
+                            <div class="departments-grid">
+                                <div class="dept-card">
+                                    <h4>Editorial</h4>
+                                    <p>Our editors shape every story with a commitment to accuracy, fairness, and clarity — from first draft to final publication.</p>
+                                </div>
+                                <div class="dept-card">
+                                    <h4>Fact-Checking</h4>
+                                    <p>Our fact-checkers verify claims, figures, and sources before stories are published, ensuring our reporting stands up to scrutiny.</p>
+                                </div>
+                                <div class="dept-card">
+                                    <h4>Production</h4>
+                                    <p>From design to digital publishing, our production team brings journalism to life across all platforms and devices.</p>
+                                </div>
+                                <div class="dept-card">
+                                    <h4>Audience &amp; Community</h4>
+                                    <p>We engage directly with readers, welcome feedback, and work to build an informed community around the journalism we produce.</p>
+                                </div>
+                            </div>
+
+                            <!-- All Authors -->
+                            <div class="all-authors-block">
+                                <h2>All Authors</h2>
+                                <div class="author-links">
+                                    <a href="author/emily-hargreaves.html">Emily Hargreaves</a>
+                                    <a href="author/daniel-rowcroft.html">Daniel Rowcroft</a>
+                                    <a href="author/james-thornton.html">James Thornton</a>
+                                    <a href="author/henry-whitaker.html">Henry Whitaker</a>
+                                    <a href="author/lydia-prescott.html">Lydia Prescott</a>
+                                    <a href="author/sophie-caldwell.html">Sophie Caldwell</a>
+                                    <a href="author/oliver-grant.html">Oliver Grant</a>
+                                    <a href="author/callum-fraser.html">Callum Fraser</a>
+                                </div>
+                            </div>
+
+                            <p class="page-updated">Last Updated: 21 May 2026</p>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- SIDEBAR -->
+                <div class="side-railbox">
+                    <br>
+                    <div class="side-adunit">
+                        <a href="https://www.venture-hive.com/" title="venture hive"><img src="images/venture-hive.webp" alt="venture-hive"></a>
+                    </div>
+                    <div class="side-socialpanel">
+                        <h4>Follow Us</h4>
+                        <ul>
+                            <a href="https://x.com/More_NewsMN" alt="twitter"><i class="fa-brands fa-x-twitter" style="color:#000000;"></i></a>
+                            <a href="https://www.instagram.com/more_news_7/" title="instagram"><img src="images/instagram.webp" alt="instagram" height="20px" width="20px"></a>
+                            <a href="https://www.quora.com/profile/More-News-6" alt="quora"><i class="fa-brands fa-quora" style="color:#000000;"></i></a>
+                            <a href="https://flipboard.com/@more_news" alt="flipboard"><i class="fa-brands fa-flipboard" style="color:#000000;"></i></a>
+                            <a href="https://medium.com/@more_news" alt="medium"><img src="images/medium.webp" alt="medium" height="20px" width="20px"></a>
+                            <a href="https://substack.com/@morenewsmn" alt="substack"><img src="images/substack.webp" alt="substack" height="19px" width="19px"></a>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <footer class="rimont-footer">
+    <div class="footer-container">
+            <div class="brand-area"><a href="index.html" title="home"><img loading="lazy" src="images/logo.png" height="75px" width="200px" alt="more news"></a></div>
+            <div class="footer-grid">
+                <!-- Explore -->
+                <div class="footer-col">
+                    <h4>Explore</h4>
+                    <ul>
+                        <li><a href="index.html" title="home">Home</a></li>
+                        <li><a href="uk/uk.html" title="uk">UK</a></li>
+                        <li><a href="politics/politics.html" title="politics">Politics</a></li>
+                        <li><a href="business/business.html" title="business">Business</a></li>
+                        <li><a href="tech/tech.html" title="tech">Tech</a></li>
+                        <li><a href="world/world.html" title="world">World</a></li>
+                        <li><a href="health/health.html" title="health">Health</a></li>
+                        <li><a href="sports/sports.html" title="sports">Sports</a></li>
+                        <li><a href="investigation/investigation.html" title="investigation">Investigation</a></li>
+                    </ul>
+                </div>
+
+                <!-- Authors -->
+                <div class="footer-col">
+                    <h4>Authors</h4>
+                    <ul>
+                        <li><a href="author/callum-fraser.html" title="Callum Fraser">Callum Fraser</a></li>
+                        <li><a href="author/emily-hargreaves.html" title="Emily Hargreaves">Emily Hargreaves</a></li>
+                        <li><a href="author/henry-whitaker.html" title="Henry Whitaker">Henry Whitaker</a></li>
+                        <li><a href="author/james-thornton.html" title="James Thornton">James Thornton</a></li>
+                        <li><a href="author/lydia-prescott.html" title="Lydia Prescott">Lydia Prescott</a></li>
+                        <li><a href="author/oliver-grant.html" title="Oliver Grant">Oliver Grant</a></li>
+                        <li><a href="author/sophie-caldwell.html" title="Sophie Caldwell">Sophie Caldwell</a></li>
+                        <li><a href="author/daniel-rowcroft.html" title="Daniel Rowcroft">Daniel Rowcroft</a></li>
+                    </ul>
+                </div>
+
+                <!-- From More News -->
+                <div class="footer-col">
+                    <h4>From More News</h4>
+                    <ul>
+                        <li><a href="about.html" title="about">About</a></li>
+                        <li><a href="our-team.html" title="our team">Our Team</a></li>
+                        <li><a href="contact.html" title="contact us">Contact Us</a></li>
+                        <li><a href="privacy-policy.html" title="privacy policy">Privacy Policy</a></li>
+                        <li><a href="terms-and-conditions.html" title="terms and conditions">Terms &amp; Conditions</a></li>
+                    </ul>
+                </div>
+
+                <!-- Policies -->
+                <div class="footer-col">
+                    <h4>Policies</h4>
+                    <ul>
+                        <li><a href="editorial-policy.html" title="editorial policy">Editorial Policy</a></li>
+                        <li><a href="corrections-policy.html" title="corrections policy">Corrections Policy</a></li>
+                        <li><a href="source-methodology.html" title="source methodology">Source Methodology</a></li>
+                        <li><a href="ownership-and-funding.html" title="ownership and funding">Ownership &amp; Funding</a></li>
+                        <li><a href="advertising-policy.html" title="advertising policy">Advertising Policy</a></li>
+                        <li><a href="right-of-reply.html" title="right of reply">Right of Reply</a></li>
+                        <li><a href="legal.html" title="legal">Legal</a></li>
+                    </ul>
+                </div>
+
+                <!-- Follow Us -->
+                <div class="footer-col social-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="https://x.com/More_NewsMN" title="twitter"><i class="fa-brands fa-x-twitter" style="color: #000000;"></i></a>
+                        <a href="https://www.instagram.com/more_news_7/" title="instagram"><img src="images/instagram.webp" alt="instagram" height="20px" width="20px"></a>
+                        <a href="https://www.quora.com/profile/More-News-6" title="quora"><i class="fa-brands fa-quora" style="color: #000000;"></i></a>
+                        <a href="https://flipboard.com/@more_news" title="flipboard"><i class="fa-brands fa-flipboard" style="color: #000000;"></i></a>
+                        <a href="https://medium.com/@more_news" title="medium"><img src="images/medium.webp" alt="medium" height="20px" width="20px"></a>
+                        <a href="https://substack.com/@morenewsmn" title="substack"><img src="images/substack.webp" alt="substack" height="19px" width="19px"></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                Copyright &copy; <span id="currentYear"></span> More News. All rights reserved.
+            </div>
+    </div>
+</footer>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const currentYear = new Date().getFullYear();
+        document.getElementById('currentYear').textContent = currentYear;
+    });
+</script>
+    </div>
+
+    <button onclick="window.scrollTo({top:0, behavior:'smooth'});" class="scrollup-btn">
+        <i class="fa-solid fa-chevron-up" aria-hidden="true"></i>
+    </button>
+    <script src="js/style.js"></script>
+</body>
+</html>
